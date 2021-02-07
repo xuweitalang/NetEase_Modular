@@ -6,7 +6,7 @@ if (isRelease) { // 如果是发布版本时，各个模块都不能独立运行
 
 def rootAndroidId = rootProject.ext.androidId
 def appId = rootProject.ext.appId
-def support = rootProject.ext.dependencies
+//def support = rootProject.ext.dependencies
 
 android {
     compileSdkVersion rootAndroidId.compileSdkVersion
@@ -56,7 +56,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // 循环引入第三方库
-    support.each { k, v -> implementation v }
+//    support.each { k, v -> implementation v }
 
     implementation project(':common') // 公共基础库
 }

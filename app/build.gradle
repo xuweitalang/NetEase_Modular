@@ -2,11 +2,17 @@ apply plugin: 'com.android.application'
 
 def rootAndroidId = rootProject.ext.androidId
 def appId = rootProject.ext.appId
-def support = rootProject.ext.dependencies
+//def support = rootProject.ext.dependencies
 
 android {
     compileSdkVersion rootAndroidId.compileSdkVersion
     buildToolsVersion rootAndroidId.buildToolsVersion
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
     defaultConfig {
         // app子模块在组件化开发中，默认为application
         applicationId appId.app
@@ -33,7 +39,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // 循环引入第三方库
-    support.each { k, v -> implementation v }
+//    support.each { k, v -> implementation v }
 
     implementation project(':common') // 公共基础库
 
