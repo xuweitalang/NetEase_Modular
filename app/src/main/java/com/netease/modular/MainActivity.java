@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity {
                 ARouter.getInstance().build(RoutePath.ROUTE_ORDER_MAIN).navigation();
             }
         });
-        btnOrder.setOnClickListener(new View.OnClickListener() {
+        btnPersonal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ARouter.getInstance().build(RoutePath.ROUTE_PERSON_MAIN).navigation();

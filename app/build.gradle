@@ -14,7 +14,6 @@ kapt {
 
 def rootAndroidId = rootProject.ext.androidId
 def appId = rootProject.ext.appId
-//def support = rootProject.ext.dependencies
 
 android {
     compileSdkVersion rootAndroidId.compileSdkVersion
@@ -62,6 +61,6 @@ dependencies {
         implementation project(':order')
         implementation project(':personal')
     }
-    annotationProcessor rootProject.ext.otherDeps["arouter-compiler"]
+    kapt rootProject.ext.otherDeps["arouter-compiler"]
 
 }
