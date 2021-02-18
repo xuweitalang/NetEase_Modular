@@ -3,7 +3,7 @@ package com.netease.modular.personal.debug;
 import android.app.Application;
 import android.util.Log;
 
-import com.netease.common.utils.Cons;
+import com.netease.common.constant.Cons;
 
 public class Personal_DebugApplication extends Application {
 

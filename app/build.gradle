@@ -1,5 +1,17 @@
 apply plugin: 'com.android.application'
 
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+kapt {
+    arguments {
+        arg("AROUTER_MODULE_NAME", project.getName())
+    }
+    generateStubs = true
+}
+
+
 def rootAndroidId = rootProject.ext.androidId
 def appId = rootProject.ext.appId
 //def support = rootProject.ext.dependencies
@@ -7,11 +19,6 @@ def appId = rootProject.ext.appId
 android {
     compileSdkVersion rootAndroidId.compileSdkVersion
     buildToolsVersion rootAndroidId.buildToolsVersion
-
-    compileOptions {
-        targetCompatibility JavaVersion.VERSION_1_8
-        sourceCompatibility JavaVersion.VERSION_1_8
-    }
 
     defaultConfig {
         // app子模块在组件化开发中，默认为application
@@ -34,10 +41,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
     // 循环引入第三方库
 //    support.each { k, v -> implementation v }
 
@@ -48,4 +62,6 @@ dependencies {
         implementation project(':order')
         implementation project(':personal')
     }
+    annotationProcessor rootProject.ext.otherDeps["arouter-compiler"]
+
 }

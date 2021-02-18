@@ -3,7 +3,7 @@ package com.netease.common.base;
 import android.app.Application;
 import android.util.Log;
 
-import com.netease.common.utils.Cons;
+import com.netease.common.constant.Cons;
 
 /**
  * 项目父Application

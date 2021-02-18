@@ -1,4 +1,4 @@
-package com.netease.common.utils;
+package com.netease.common.constant;
 
 public final class Cons {
 

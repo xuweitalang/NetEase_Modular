@@ -6,7 +6,7 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.netease.common.utils.Cons;
+import com.netease.common.constant.Cons;
 
 /**
  * 项目父Activity

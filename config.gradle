@@ -8,7 +8,7 @@ ext {
     androidId = [
             compileSdkVersion: 28,
             buildToolsVersion: "29.0.2",
-            minSdkVersion    : 21,
+            minSdkVersion    : 24,
             targetSdkVersion : 28,
             versionCode      : 1,
             versionName      : "1.0"
@@ -91,5 +91,5 @@ ext {
     networkLibs = retrofit.values()
     rxJavaLibs = rxJava.values()
     commonLibs = commonDeps.values()
-
+    testLibs = testDeps.values()
 }

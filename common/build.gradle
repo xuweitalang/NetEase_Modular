@@ -48,7 +48,7 @@ dependencies {
 //    androidTestImplementation 'com.android.support.test:runner:1.0.2'
 //    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    // Support库
+//    // Support库
     api rootProject.ext.supportLibs
     // 网络请求库
     api rootProject.ext.networkLibs
@@ -57,5 +57,8 @@ dependencies {
     // commonLibs
     api rootProject.ext.commonLibs
 
-    kapt rootProject.ext.otherDeps["arouter-compiler"]
+    api rootProject.ext.testLibs
+
+    annotationProcessor rootProject.ext.otherDeps["arouter-compiler"]
+//    kapt rootProject.ext.otherDeps["arouter-compiler"]
 }
