@@ -1309,6 +1309,7 @@ int id transition_layout_save 0x0
 int id transition_position 0x0
 int id transition_scene_layoutid_cache 0x0
 int id transition_transform 0x0
+int id tv_test 0x0
 int id unchecked 0x0
 int id uniform 0x0
 int id unlabeled 0x0

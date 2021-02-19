@@ -39,14 +39,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.netease.modular.personal.Personal_MainActivity" >
+        <activity android:name="com.netease.modular.demo.Demo_MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.netease.modular.personal.debug.Personal_DebugActivity" />
 
         <service
             android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"

@@ -14,9 +14,11 @@ ext {
             versionName      : "1.0"
     ]
 
-    appId = ["app"     : "com.netease.modular",
-             "order"   : "com.netease.modular.order",
-             "personal": "com.netease.modular.personal"]
+    appId = ["app"  : "com.netease.modular",
+             "order": "com.netease.modular.order",
+//             "personal": "com.netease.modular.personal",
+             "demo" : "com.netease.modular.demo"
+    ]
 
     url = [
             "debug"  : "https://11.22.33.44/debug",

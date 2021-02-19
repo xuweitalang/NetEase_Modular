@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 kapt {
@@ -63,7 +63,7 @@ dependencies {
     // 如果是集成化模式，做发布版本时。各个模块都不能独立运行了
     if (isRelease) {
         implementation project(':order')
-        implementation project(':personal')
+        implementation project(':demo')
     }
     kapt rootProject.ext.otherDeps["arouter-compiler"]
 

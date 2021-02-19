@@ -13,10 +13,16 @@
         android:text="订单" />
 
     <Button
-        android:id="@+id/btn_personal"
+        android:id="@+id/btn_demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我的" />
+        android:text="测试" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_demo"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="我的" />-->
 
 
 </LinearLayout>

@@ -19,16 +19,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnOrder;
+  public final Button btnDemo;
 
   @NonNull
-  public final Button btnPersonal;
+  public final Button btnOrder;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnOrder,
-      @NonNull Button btnPersonal) {
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnDemo,
+      @NonNull Button btnOrder) {
     this.rootView = rootView;
+    this.btnDemo = btnDemo;
     this.btnOrder = btnOrder;
-    this.btnPersonal = btnPersonal;
   }
 
   @Override
@@ -58,19 +58,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_demo;
+      Button btnDemo = rootView.findViewById(id);
+      if (btnDemo == null) {
+        break missingId;
+      }
+
       id = R.id.btn_order;
       Button btnOrder = rootView.findViewById(id);
       if (btnOrder == null) {
         break missingId;
       }
 
-      id = R.id.btn_personal;
-      Button btnPersonal = rootView.findViewById(id);
-      if (btnPersonal == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((LinearLayout) rootView, btnOrder, btnPersonal);
+      return new ActivityMainBinding((LinearLayout) rootView, btnDemo, btnOrder);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

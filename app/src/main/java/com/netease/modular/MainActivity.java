@@ -22,7 +22,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
     @Override
     protected void initView() {
         viewBinding.btnOrder.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_ORDER_MAIN).navigation());
-        viewBinding.btnPersonal.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_PERSON_MAIN).navigation());
+        viewBinding.btnDemo.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_DEMO_MAIN).navigation());
     }
 
     @Override

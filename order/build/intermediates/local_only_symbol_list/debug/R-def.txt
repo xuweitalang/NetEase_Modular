@@ -5,6 +5,7 @@ color colorPrimary
 color colorPrimaryDark
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id tv_test
 layout order_activity_debug
 layout order_activity_main
 mipmap ic_launcher

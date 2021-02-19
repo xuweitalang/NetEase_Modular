@@ -5,7 +5,7 @@ INJECTED from C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Mo
 INJECTED from C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-27:12
-MERGED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-27:12
 MERGED from [:common] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fc448e5ee20ce795af9eb88f207aaebe\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -80,8 +80,8 @@ application
 ADDED from C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\app\src\main\AndroidManifest.xml:6:5-21:19
 MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
 MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
-MERGED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-26:19
-MERGED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-26:19
+MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
+MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.github.tbruyelle:rxpermissions:0.12] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a297084e7baa70c07771f70ed189b841\jetified-rxpermissions-0.12\AndroidManifest.xml:9:5-20
@@ -136,8 +136,8 @@ INJECTED from C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Mo
 INJECTED from C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\app\src\main\AndroidManifest.xml
 MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:common] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:common] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fc448e5ee20ce795af9eb88f207aaebe\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
@@ -254,14 +254,10 @@ activity#com.netease.modular.order.Order_MainActivity
 ADDED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-24:20
 	android:name
 		ADDED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-78
-activity#com.netease.modular.personal.Personal_MainActivity
-ADDED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-24:20
+activity#com.netease.modular.demo.Demo_MainActivity
+ADDED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-84
-activity#com.netease.modular.personal.debug.Personal_DebugActivity
-ADDED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-94
-	android:name
-		ADDED from [:personal] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:19-91
+		ADDED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:23:5-80
 	android:name

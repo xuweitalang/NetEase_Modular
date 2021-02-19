@@ -5,7 +5,7 @@ if (isRelease) { // 如果是发布版本时，各个模块都不能独立运行
 }
 
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 kapt {
@@ -45,6 +45,11 @@ android {
         }
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     // 配置资源路径，方便测试环境，打包不集成到正式环境
     sourceSets {
         main {
@@ -62,14 +67,15 @@ android {
         }
     }
 
-    buildFeatures {
-        viewBinding = true
-    }
+//    buildFeatures {
+//        viewBinding = true
+//    }
+
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    // 循环引入第三方库
+// 循环引入第三方库
 //    support.each { k, v -> implementation v }
 
     implementation project(':common') // 公共基础库

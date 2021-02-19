@@ -7,6 +7,6 @@ package com.netease.common.constant
  * @Description: 路由路径
  */
 object RoutePath {
-    const val ROUTE_PERSON_MAIN = "/personal/main"
     const val ROUTE_ORDER_MAIN = "/order/main"
+    const val ROUTE_DEMO_MAIN = "/demo/main"
 }

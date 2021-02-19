@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetEase_Modular.iml" filepath="$PROJECT_DIR$/.idea/modules/NetEase_Modular.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NetEase_Modular.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NetEase_Modular.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/NetEase_Modular.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/NetEase_Modular.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/NetEase_Modular.demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/NetEase_Modular.demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/NetEase_Modular.order.iml" filepath="$PROJECT_DIR$/.idea/modules/order/NetEase_Modular.order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/personal/NetEase_Modular.personal.iml" filepath="$PROJECT_DIR$/.idea/modules/personal/NetEase_Modular.personal.iml" />
     </modules>
   </component>
 </project>
