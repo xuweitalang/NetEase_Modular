@@ -1,0 +1,8 @@
+com/netease/modular/MyApp.java
+ com.netease.modular.MyApp
+com/netease/modular/BuildConfig.java
+ com.netease.modular.BuildConfig
+com/netease/modular/databinding/ActivityMainBinding.java
+ com.netease.modular.databinding.ActivityMainBinding
+com/netease/modular/MainActivity.java
+ com.netease.modular.MainActivity
