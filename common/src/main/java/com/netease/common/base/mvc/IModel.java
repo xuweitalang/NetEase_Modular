@@ -7,7 +7,7 @@ import io.reactivex.disposables.Disposable;
  * @Date: 2021/2/18 15:33
  * @Description:
  */
-interface IModel {
+public interface IModel {
     void addDisposable(Disposable disposable);
 
     void onDetach();

@@ -1,3 +1,8 @@
+com/netease/modular/MainContract.java
+ com.netease.modular.MainContract
+ com.netease.modular.MainContract$Model
+ com.netease.modular.MainContract$Presenter
+ com.netease.modular.MainContract$View
 com/netease/modular/MyApp.java
  com.netease.modular.MyApp
 com/netease/modular/BuildConfig.java

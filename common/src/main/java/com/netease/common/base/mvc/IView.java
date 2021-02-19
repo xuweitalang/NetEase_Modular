@@ -5,7 +5,7 @@ package com.netease.common.base.mvc;
  * @Date: 2021/2/18 15:32
  * @Description:
  */
-interface IView {
+public interface IView {
     void showLoading();
     void hideLoading();
 }

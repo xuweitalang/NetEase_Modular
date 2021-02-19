@@ -3,12 +3,11 @@ package com.netease.modular;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.netease.common.base.BaseActivity;
+import com.netease.common.base.mvc.BaseMvpActivity;
 import com.netease.common.constant.Cons;
 import com.netease.common.constant.RoutePath;
-import com.netease.modular.databinding.ActivityMainBinding;
 
-public class MainActivity extends BaseActivity<ActivityMainBinding> {
+public class MainActivity extends BaseMvpActivity<com.netease.modular.databinding.ActivityMainBinding, MainContract.View, MainContract.Presenter> {
 
     @Override
     protected void initData() {
@@ -17,6 +16,11 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
         } else {
             Log.e(Cons.TAG, "当前为：组件化模式，app/order/personal子模块都可独立运行");
         }
+    }
+
+    @Override
+    protected MainContract.Presenter createPresenter() {
+        return null;
     }
 
     @Override

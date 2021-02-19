@@ -1,5 +1,7 @@
 package com.netease.common.base.mvc;
 
+import androidx.viewbinding.ViewBinding;
+
 import com.netease.common.base.BaseActivity;
 
 /**
@@ -7,7 +9,7 @@ import com.netease.common.base.BaseActivity;
  * @Date: 2021/2/18 17:06
  * @Description:
  */
-public abstract class BaseMvpActivity<V extends IView, P extends IPresenter<V>> extends BaseActivity implements IView {
+public abstract class BaseMvpActivity<VB extends ViewBinding, V extends IView, P extends IPresenter<V>> extends BaseActivity<VB> implements IView {
 
     protected P mPresenter;
 
