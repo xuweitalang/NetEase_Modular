@@ -4,11 +4,12 @@ package com.netease.modular.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import com.flyco.tablayout.CommonTabLayout;
 import com.netease.modular.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -16,28 +17,24 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final Button btnDemo;
+  public final FrameLayout flContainer;
 
   @NonNull
-  public final Button btnLogin;
+  public final CommonTabLayout tabLayout;
 
-  @NonNull
-  public final Button btnOrder;
-
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnDemo,
-      @NonNull Button btnLogin, @NonNull Button btnOrder) {
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull FrameLayout flContainer,
+      @NonNull CommonTabLayout tabLayout) {
     this.rootView = rootView;
-    this.btnDemo = btnDemo;
-    this.btnLogin = btnLogin;
-    this.btnOrder = btnOrder;
+    this.flContainer = flContainer;
+    this.tabLayout = tabLayout;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -62,25 +59,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_demo;
-      Button btnDemo = rootView.findViewById(id);
-      if (btnDemo == null) {
+      id = R.id.fl_container;
+      FrameLayout flContainer = rootView.findViewById(id);
+      if (flContainer == null) {
         break missingId;
       }
 
-      id = R.id.btn_login;
-      Button btnLogin = rootView.findViewById(id);
-      if (btnLogin == null) {
+      id = R.id.tab_layout;
+      CommonTabLayout tabLayout = rootView.findViewById(id);
+      if (tabLayout == null) {
         break missingId;
       }
 
-      id = R.id.btn_order;
-      Button btnOrder = rootView.findViewById(id);
-      if (btnOrder == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((LinearLayout) rootView, btnDemo, btnLogin, btnOrder);
+      return new ActivityMainBinding((RelativeLayout) rootView, flContainer, tabLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

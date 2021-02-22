@@ -1,7 +1,7 @@
 package com.netease.modular.api;
 
 import com.netease.common.http.BaseHttpResult;
-import com.netease.modular.main.model.entity.User;
+import com.netease.modular.main.entity.User;
 
 import java.util.List;
 import java.util.Map;
