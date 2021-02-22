@@ -7,7 +7,7 @@ import android.content.Context;
  * @Date: 2021/2/18 11:15
  * @Description: App 环境
  */
-class AppState {
+public class AppState {
     private Context mContext;
 
     private AppState() {
