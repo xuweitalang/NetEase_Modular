@@ -1,13 +1,27 @@
-com/netease/modular/MainContract.java
- com.netease.modular.MainContract
- com.netease.modular.MainContract$Model
- com.netease.modular.MainContract$Presenter
- com.netease.modular.MainContract$View
-com/netease/modular/MyApp.java
- com.netease.modular.MyApp
+com/netease/modular/main/model/entity/User.java
+ com.netease.modular.main.model.entity.User
+ com.netease.modular.main.model.entity.User$AbodeAndPostBean
+ com.netease.modular.main.model.entity.User$AbodeAndPostBean$AppAbodeAndPostDTOSBean
+com/netease/modular/api/ApiService.java
+ com.netease.modular.api.ApiService
+com/netease/modular/app/MyApp.java
+ com.netease.modular.app.MyApp
 com/netease/modular/BuildConfig.java
  com.netease.modular.BuildConfig
+com/netease/modular/main/model/entity/UserRole.java
+ com.netease.modular.main.model.entity.UserRole
 com/netease/modular/databinding/ActivityMainBinding.java
  com.netease.modular.databinding.ActivityMainBinding
-com/netease/modular/MainActivity.java
- com.netease.modular.MainActivity
+com/netease/modular/utils/RetrofitUtil.java
+ com.netease.modular.utils.RetrofitUtil
+com/netease/modular/main/MainPresenter.java
+ com.netease.modular.main.MainPresenter
+com/netease/modular/main/MainModel.java
+ com.netease.modular.main.MainModel
+com/netease/modular/main/MainContract.java
+ com.netease.modular.main.MainContract
+ com.netease.modular.main.MainContract$Model
+ com.netease.modular.main.MainContract$Presenter
+ com.netease.modular.main.MainContract$View
+com/netease/modular/main/MainActivity.java
+ com.netease.modular.main.MainActivity

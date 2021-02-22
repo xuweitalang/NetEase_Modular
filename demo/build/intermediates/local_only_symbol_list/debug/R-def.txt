@@ -10,5 +10,5 @@ layout demo_activity_debug
 layout demo_activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
-string app_name
+string common_app_name
 style AppTheme

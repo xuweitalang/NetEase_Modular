@@ -16,6 +16,10 @@
         "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
         "merged": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

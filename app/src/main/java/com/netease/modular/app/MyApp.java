@@ -1,9 +1,8 @@
-package com.netease.modular;
-
-import android.app.Application;
+package com.netease.modular.app;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.netease.common.base.BaseApplication;
+import com.netease.modular.BuildConfig;
 
 /**
  * @Author: xuwei

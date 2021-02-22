@@ -1,4 +1,4 @@
-package com.netease.common.net;
+package com.netease.common.http;
 
 /**
  * @Author: xuwei
@@ -6,5 +6,6 @@ package com.netease.common.net;
  * @Description:
  */
 public class HttpConstant {
-    public static final int timeout = 20;
+    public static final int DEFAULT_TIMEOUT = 20;
+    public static final long MAX_CACHE_SIZE = 1024 * 1024 * 50; // 50M 的缓存大小
 }

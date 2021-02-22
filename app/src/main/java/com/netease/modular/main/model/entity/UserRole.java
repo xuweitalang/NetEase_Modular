@@ -1,4 +1,4 @@
-package com.wpg.mobile.mobilemr.mvp.user.model.entity;
+package com.netease.modular.main.model.entity;
 
 /**
  * package: com.wpg.mobile.mobilemr.mvp.user.model.entity

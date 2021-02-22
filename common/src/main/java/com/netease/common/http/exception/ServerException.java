@@ -1,4 +1,4 @@
-package com.hazz.baselibs.net.exception;
+package com.netease.common.http.exception;
 
 import com.google.gson.JsonParseException;
 import com.google.gson.JsonSerializer;
@@ -16,6 +16,7 @@ import java.text.ParseException;
 import retrofit2.HttpException;
 
 /**
+ * @Author: xuwei
  * 异常处理
  */
 public class ServerException extends Exception {

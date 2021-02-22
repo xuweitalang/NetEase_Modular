@@ -1168,6 +1168,7 @@ id beginning
 id blocking
 id bottom
 id btn_demo
+id btn_login
 id btn_order
 id buttonPanel
 id cancel_action
@@ -1491,11 +1492,12 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string common_app_name
+string common_error_default
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
@@ -2130,3 +2132,4 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable leak_canary_MoreDetailsView leak_canary_plus_color
 xml leak_canary_file_paths
+xml network_security_config

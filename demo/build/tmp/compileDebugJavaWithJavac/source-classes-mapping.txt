@@ -2,13 +2,13 @@ com/alibaba/android/arouter/routes/ARouter$$Providers$$demo.java
  com.alibaba.android.arouter.routes.ARouter$$Providers$$demo
 com/netease/modular/demo/databinding/DemoActivityDebugBinding.java
  com.netease.modular.demo.databinding.DemoActivityDebugBinding
-com/alibaba/android/arouter/routes/ARouter$$Root$$demo.java
- com.alibaba.android.arouter.routes.ARouter$$Root$$demo
-com/netease/modular/demo/BuildConfig.java
- com.netease.modular.demo.BuildConfig
-com/netease/modular/demo/databinding/DemoActivityMainBinding.java
- com.netease.modular.demo.databinding.DemoActivityMainBinding
 com/alibaba/android/arouter/routes/ARouter$$Group$$demo.java
  com.alibaba.android.arouter.routes.ARouter$$Group$$demo
 com/netease/modular/demo/Demo_MainActivity.java
  com.netease.modular.demo.Demo_MainActivity
+com/netease/modular/demo/databinding/DemoActivityMainBinding.java
+ com.netease.modular.demo.databinding.DemoActivityMainBinding
+com/netease/modular/demo/BuildConfig.java
+ com.netease.modular.demo.BuildConfig
+com/alibaba/android/arouter/routes/ARouter$$Root$$demo.java
+ com.alibaba.android.arouter.routes.ARouter$$Root$$demo

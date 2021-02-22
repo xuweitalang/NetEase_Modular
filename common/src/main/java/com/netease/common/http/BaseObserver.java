@@ -1,11 +1,10 @@
-package com.hazz.baselibs.net;
+package com.netease.common.http;
 
 
 import android.accounts.NetworkErrorException;
 
-
-import com.hazz.baselibs.mvp.IView;
-import com.hazz.baselibs.net.exception.ServerException;
+import com.netease.common.base.mvc.IView;
+import com.netease.common.http.exception.ServerException;
 
 import java.net.ConnectException;
 import java.net.UnknownHostException;
@@ -43,7 +42,7 @@ public abstract class BaseObserver<T> implements Observer<BaseHttpResult<T>> {
     @Override
     public void onNext(BaseHttpResult<T> result) {
         hideLoadingDialog();
-        if (result.isSuccessFul()) {
+        if (result.isSuccess()) {
             onSuccess(result);
         } else {
             //TODO API异常处理

@@ -1,4 +1,4 @@
-package com.seewo.libcommons.utils;
+package com.netease.common.utils;
 
 import android.content.Context;
 

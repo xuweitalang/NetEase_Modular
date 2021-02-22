@@ -4,9 +4,8 @@ import android.app.Application;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.netease.common.constant.Cons;
+import com.netease.common.app.AppState;
 import com.squareup.leakcanary.LeakCanary;
-import com.squareup.leakcanary.RefWatcher;
 
 /**
  * 项目父Application
@@ -17,6 +16,7 @@ public abstract class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        AppState.getInstance().init(this);
         if (isDebug()) {
             initLeakCanary();
         }

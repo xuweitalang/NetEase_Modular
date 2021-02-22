@@ -1,4 +1,4 @@
-package com.seewo.libaccount.utils;
+package com.netease.common.http;
 
 /**
  * Created by monkey on 2017/12/1.
@@ -22,16 +22,5 @@ public class ErrorCode {
     public static final String FACE_ID_NOT_BIND = "4700001";
 
     private ErrorCode() {
-    }
-
-    public static boolean isTokenInvalid(String errorCode) {
-        return TOKEN_INVALID.equals(errorCode) || TOKEN_EXPIRED.equals(errorCode);
-    }
-
-    public static boolean isNeedImageCaptcha(String errorCode) {
-        return NEED_IMAGE_CAPTCHA.equals(errorCode) ||
-                NEED_IMAGE_CAPTCHA_FOR_SECURITY.equals(errorCode) ||
-                IMAGE_CAPTCHA_EXPIRED.equals(errorCode) ||
-                IMAGE_CAPTCHA_WRONG.equals(errorCode);
     }
 }

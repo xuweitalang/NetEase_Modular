@@ -1,4 +1,4 @@
-package com.netease.modular
+package com.netease.modular.app
 
 import android.app.Activity
 import android.app.Application
@@ -6,6 +6,7 @@ import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import com.alibaba.android.arouter.launcher.ARouter
+import com.netease.modular.BuildConfig
 import com.squareup.leakcanary.LeakCanary
 import com.squareup.leakcanary.RefWatcher
 

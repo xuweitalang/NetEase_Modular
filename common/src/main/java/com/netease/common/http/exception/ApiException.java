@@ -1,19 +1,20 @@
-package com.seewo.libaccount.net.exception;
+package com.netease.common.http.exception;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.Log;
 
-import com.seewo.libaccount.AccountConfig;
-import com.seewo.libaccount.R;
-import com.seewo.libcommons.utils.ResourceUtil;
+import com.netease.common.R;
+import com.netease.common.app.AppState;
+import com.netease.common.utils.ResourceUtil;
 
+/**
+ * @Author: xuwei
+ * Api异常处理
+ */
 public class ApiException extends Exception {
 
     private static final String TAG = "ApiException";
-    public static final String CODE_NFC_NO_BIND = "4700001";
-    public static final String CODE_DEVICE_NO_BIND_CLUB = "4000003";
-    public static final String CODE_CLUB_EXISTED = "4500010";
     private final String mErrorCode;
     private final String mErrorMsg;
 
@@ -38,9 +39,9 @@ public class ApiException extends Exception {
     }
 
     private String getErrorMessage(String errorCode) {
-        Context context = AccountConfig.getInstance().getContext();
+        Context context = AppState.getInstance().getContext();
         Resources res = context.getResources();
         int stringResId = ResourceUtil.getStringId(context, "error_msg_" + errorCode);
-        return stringResId != 0 ? res.getString(stringResId) : res.getString(R.string.error_default);
+        return stringResId != 0 ? res.getString(stringResId) : res.getString(R.string.common_error_default);
     }
 }

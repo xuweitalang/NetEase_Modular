@@ -1,4 +1,4 @@
-package com.netease.common;
+package com.netease.common.app;
 
 import android.content.Context;
 

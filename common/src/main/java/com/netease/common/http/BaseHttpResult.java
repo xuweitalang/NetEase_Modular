@@ -1,99 +1,73 @@
-package com.hazz.baselibs.net;
+package com.netease.common.http;
+
+import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
 /**
- * @author xuhao
- * @date 2018/6/12 00:58
- * @desc 抽取的一个基类的bean, 直接在泛型中传data就行
+ * @author xuwei
  */
 public class BaseHttpResult<T> implements Serializable {
     private static final long serialVersionUID = 2690553609250007325L;
-    public static final int SUCCESS_CODE = 0;
+    @SerializedName("success")
+    private boolean success;
 
-//    private int status;
-//    private String message;
-//    private T data;
-//
-//    public int getStatus() {
-//        return status;
-//    }
-//
-//    public void setStatus(int status) {
-//        this.status = status;
-//    }
-//
-//    public String getMessage() {
-//        return message;
-//    }
-//
-//    public void setMessage(String message) {
-//        this.message = message;
-//    }
-//
-//    public T getData() {
-//        return data;
-//    }
-//
-//    public void setData(T data) {
-//        this.data = data;
-//    }
-//
-//
-//    /**
-//     * 正常返回
-//     *
-//     * @return
-//     */
-//    public boolean isSuccessFul() {
-//        return getStatus() == SUCCESS_CODE;
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return "BaseHttpResult{" +
-//                "status=" + status +
-//                ", message='" + message + '\'' +
-//                ", data=" + data +
-//                '}';
-//    }
+    @SerializedName("errorCode")
+    private String errorCode;
 
+    @SerializedName("errorMessage")
+    private String errorMessage;
 
-    /** test**/
-    private boolean error;
+    @SerializedName("resultData")
+    private T resultData;
 
-    private T results;
-
-    public boolean isError() {
-        return error;
+    public boolean isSuccess() {
+        return success;
     }
 
-    public void setError(boolean error) {
-        this.error = error;
+    public void setSuccess(boolean success) {
+        this.success = success;
     }
 
-    public T getData() {
-        return results;
+    public String getErrorCode() {
+        return errorCode;
     }
 
-    public void setData(T data) {
-        this.results = data;
+    public void setErrorCode(String errorCode) {
+        this.errorCode = errorCode;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
+    }
+
+    public T getResultData() {
+        return resultData;
+    }
+
+    public void setResultData(T resultData) {
+        this.resultData = resultData;
     }
 
     @Override
     public String toString() {
-        return "BaseHttpResult{" +
-                "error=" + error +
-                ", results=" + results +
-                '}';
-    }
-
-    /**
-     * 正常返回
-     *
-     * @return
-     */
-    public boolean isSuccessFul() {
-        return !isError();
+        if (resultData != null) {
+            return "BaseResponse{" +
+                    "success=" + success +
+                    ", errorCode='" + errorCode + '\'' +
+                    ", errorMessage='" + errorMessage + '\'' +
+                    ", resultData=" + resultData.toString() +
+                    '}';
+        } else {
+            return "BaseResponse{" +
+                    "success=" + success +
+                    ", errorCode='" + errorCode + '\'' +
+                    ", errorMessage='" + errorMessage + '\'' +
+                    '}';
+        }
     }
 }

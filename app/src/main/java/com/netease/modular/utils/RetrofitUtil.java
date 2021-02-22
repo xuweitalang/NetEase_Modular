@@ -1,18 +1,21 @@
 package com.netease.modular.utils;
 
-import io.reactivex.Observable;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.schedulers.Schedulers;
+import com.netease.common.http.BaseRetrofit;
+import com.netease.modular.api.ApiService;
 
 /**
  * @Author: xuwei
  * @Date: 2021/2/20 15:11
- * @Description: 线程调度
+ * @Description:
  */
-public class RxJavaUtil {
-    public static <T> Observable toSubscribe(Observable<T> observable) {
-        return observable.subscribeOn(Schedulers.io())
-                .unsubscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread());
+public class RetrofitUtil extends BaseRetrofit {
+    private static ApiService httpService;
+
+    public static ApiService getHttpService() {
+        if (httpService == null) {
+            httpService = getRetrofit().create(ApiService.class);
+        }
+        return httpService;
     }
+
 }

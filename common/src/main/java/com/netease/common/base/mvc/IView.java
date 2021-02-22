@@ -7,5 +7,6 @@ package com.netease.common.base.mvc;
  */
 public interface IView {
     void showLoading();
+
     void hideLoading();
 }
