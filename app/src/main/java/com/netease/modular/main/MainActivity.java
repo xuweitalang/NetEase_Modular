@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.flyco.tablayout.listener.CustomTabEntity;
 import com.flyco.tablayout.listener.OnTabSelectListener;
-import com.netease.common.base.mvc.BaseMvpActivity;
+import com.netease.common.base.mvp.BaseMvpActivity;
 import com.netease.common.constant.Cons;
 import com.netease.modular.BuildConfig;
 import com.netease.modular.R;

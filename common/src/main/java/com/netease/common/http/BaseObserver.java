@@ -3,7 +3,7 @@ package com.netease.common.http;
 
 import android.accounts.NetworkErrorException;
 
-import com.netease.common.base.mvc.IView;
+import com.netease.common.base.mvp.IView;
 import com.netease.common.http.exception.ServerException;
 
 import java.net.ConnectException;

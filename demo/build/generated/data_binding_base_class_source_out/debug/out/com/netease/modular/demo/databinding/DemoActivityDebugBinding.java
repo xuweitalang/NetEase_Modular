@@ -4,10 +4,10 @@ package com.netease.modular.demo.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.netease.modular.demo.R;
 import java.lang.NullPointerException;
@@ -16,19 +16,19 @@ import java.lang.String;
 
 public final class DemoActivityDebugBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final TextView tvTest;
 
-  private DemoActivityDebugBinding(@NonNull ConstraintLayout rootView, @NonNull TextView tvTest) {
+  private DemoActivityDebugBinding(@NonNull LinearLayout rootView, @NonNull TextView tvTest) {
     this.rootView = rootView;
     this.tvTest = tvTest;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -59,7 +59,7 @@ public final class DemoActivityDebugBinding implements ViewBinding {
         break missingId;
       }
 
-      return new DemoActivityDebugBinding((ConstraintLayout) rootView, tvTest);
+      return new DemoActivityDebugBinding((LinearLayout) rootView, tvTest);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

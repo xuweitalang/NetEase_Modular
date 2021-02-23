@@ -2,7 +2,7 @@ package com.netease.modular.home;
 
 import android.util.Log;
 
-import com.netease.common.base.mvc.BasePresenter;
+import com.netease.common.base.mvp.BasePresenter;
 import com.netease.common.http.RxSchedulers;
 
 import java.util.HashMap;

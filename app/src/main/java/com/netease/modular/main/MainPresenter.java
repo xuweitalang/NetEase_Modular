@@ -1,6 +1,6 @@
 package com.netease.modular.main;
 
-import com.netease.common.base.mvc.BasePresenter;
+import com.netease.common.base.mvp.BasePresenter;
 
 /**
  * @Author: xuwei

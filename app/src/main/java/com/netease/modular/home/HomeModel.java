@@ -1,6 +1,6 @@
 package com.netease.modular.home;
 
-import com.netease.common.base.mvc.BaseModel;
+import com.netease.common.base.mvp.BaseModel;
 import com.netease.common.http.BaseHttpResult;
 import com.netease.modular.main.entity.User;
 import com.netease.modular.utils.RetrofitUtil;

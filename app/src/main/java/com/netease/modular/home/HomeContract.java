@@ -1,8 +1,8 @@
 package com.netease.modular.home;
 
-import com.netease.common.base.mvc.IModel;
-import com.netease.common.base.mvc.IPresenter;
-import com.netease.common.base.mvc.IView;
+import com.netease.common.base.mvp.IModel;
+import com.netease.common.base.mvp.IPresenter;
+import com.netease.common.base.mvp.IView;
 import com.netease.common.http.BaseHttpResult;
 import com.netease.modular.main.entity.User;
 

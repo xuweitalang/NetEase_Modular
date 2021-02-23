@@ -1,8 +1,8 @@
 package com.netease.modular.main;
 
-import com.netease.common.base.mvc.IModel;
-import com.netease.common.base.mvc.IPresenter;
-import com.netease.common.base.mvc.IView;
+import com.netease.common.base.mvp.IModel;
+import com.netease.common.base.mvp.IPresenter;
+import com.netease.common.base.mvp.IView;
 
 /**
  * @Author: xuwei

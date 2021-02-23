@@ -10,7 +10,9 @@
     {
       "type": "SINGLE",
       "filters": [],
-      "outputFile": "../../library_manifest/debug/AndroidManifest.xml"
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "AndroidManifest.xml"
     }
   ]
 }

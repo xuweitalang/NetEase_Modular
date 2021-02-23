@@ -1,6 +1,6 @@
 package com.netease.modular.main;
 
-import com.netease.common.base.mvc.BaseModel;
+import com.netease.common.base.mvp.BaseModel;
 
 /**
  * @Author: xuwei
