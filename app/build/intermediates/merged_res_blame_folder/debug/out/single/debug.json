@@ -44,6 +44,10 @@
         "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+        "merged": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_test_item.xml.flat",
+        "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\layout\\adapter_test_item.xml"
+    },
+    {
         "merged": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

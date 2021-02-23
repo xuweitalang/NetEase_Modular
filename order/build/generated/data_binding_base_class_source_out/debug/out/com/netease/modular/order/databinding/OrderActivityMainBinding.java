@@ -4,25 +4,31 @@ package com.netease.modular.order.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.netease.modular.order.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class OrderActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
-  private OrderActivityMainBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final TextView tvTest;
+
+  private OrderActivityMainBinding(@NonNull LinearLayout rootView, @NonNull TextView tvTest) {
     this.rootView = rootView;
+    this.tvTest = tvTest;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +49,19 @@ public final class OrderActivityMainBinding implements ViewBinding {
 
   @NonNull
   public static OrderActivityMainBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.tv_test;
+      TextView tvTest = rootView.findViewById(id);
+      if (tvTest == null) {
+        break missingId;
+      }
 
-    return new OrderActivityMainBinding((ConstraintLayout) rootView);
+      return new OrderActivityMainBinding((LinearLayout) rootView, tvTest);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

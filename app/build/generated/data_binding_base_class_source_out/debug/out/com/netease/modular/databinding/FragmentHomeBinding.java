@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import com.jcodecraeer.xrecyclerview.XRecyclerView;
 import com.netease.modular.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -27,12 +28,16 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final Button btnOrder;
 
+  @NonNull
+  public final XRecyclerView recyclerView;
+
   private FragmentHomeBinding(@NonNull LinearLayout rootView, @NonNull Button btnDemo,
-      @NonNull Button btnLogin, @NonNull Button btnOrder) {
+      @NonNull Button btnLogin, @NonNull Button btnOrder, @NonNull XRecyclerView recyclerView) {
     this.rootView = rootView;
     this.btnDemo = btnDemo;
     this.btnLogin = btnLogin;
     this.btnOrder = btnOrder;
+    this.recyclerView = recyclerView;
   }
 
   @Override
@@ -80,7 +85,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((LinearLayout) rootView, btnDemo, btnLogin, btnOrder);
+      id = R.id.recyclerView;
+      XRecyclerView recyclerView = rootView.findViewById(id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((LinearLayout) rootView, btnDemo, btnLogin, btnOrder,
+          recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

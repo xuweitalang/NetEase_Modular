@@ -3,11 +3,16 @@ package com.netease.modular.home;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.netease.common.base.mvc.BaseMvpFragment;
 import com.netease.common.constant.RoutePath;
 import com.netease.modular.databinding.FragmentHomeBinding;
 import com.netease.modular.main.entity.User;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @Author: xuwei
@@ -32,9 +37,19 @@ public class HomeFragment extends BaseMvpFragment<FragmentHomeBinding, HomeContr
     @Override
     protected void initView() {
         super.initView();
-        viewBinding.btnOrder.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_ORDER_MAIN).navigation());
+        viewBinding.btnOrder.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_ORDER_MAIN).
+                withString("test", "haha").navigation());
         viewBinding.btnDemo.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_DEMO_MAIN).navigation());
         viewBinding.btnLogin.setOnClickListener(v -> login());
+
+        List<String> list = new ArrayList<>();
+        list.add("aaa");
+        list.add("bbb");
+        list.add("ccc");
+        list.add("ddd");
+        TestAdapter adapter = new TestAdapter(getActivity(), list);
+        viewBinding.recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        viewBinding.recyclerView.setAdapter(adapter);
     }
 
     private void login() {

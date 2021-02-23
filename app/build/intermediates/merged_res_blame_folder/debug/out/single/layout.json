@@ -6,5 +6,9 @@
     {
         "merged": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
         "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\adapter_test_item.xml",
+        "source": "C:\\download\\jiagoushi-master\\jiagoushi-master\\ZuJianHua\\NetEase_Modular\\app\\src\\main\\res\\layout\\adapter_test_item.xml"
     }
 ]

@@ -11,6 +11,7 @@ MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\EDZ\.gradle\caches
 MERGED from [com.alibaba:arouter-api:1.4.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\9aa5fac3cb08ff720193cd932cf4e38f\jetified-arouter-api-1.4.0\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f8737351b005499b1d3d4c8e66712e73\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dd3afee7902eb5edcf1523ec635c596a\jetified-FlycoTabLayout_Lib-2.1.2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.jcodecraeer:xrecyclerview:1.6.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\3bd463eca76e7c094ad6e371776112ef\jetified-xrecyclerview-1.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b0dd6791cae7cf7d12abc2795c0845bd\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.orhanobut:logger:2.2.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\9a49aa32cd0a15790ad6b65a26635a1f\jetified-logger-2.2.0\AndroidManifest.xml:2:1-8:12
@@ -87,6 +88,8 @@ MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\Net
 MERGED from [:order] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
 MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
 MERGED from [:demo] C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-25:19
+MERGED from [com.jcodecraeer:xrecyclerview:1.6.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\3bd463eca76e7c094ad6e371776112ef\jetified-xrecyclerview-1.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.jcodecraeer:xrecyclerview:1.6.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\3bd463eca76e7c094ad6e371776112ef\jetified-xrecyclerview-1.6.0\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.github.tbruyelle:rxpermissions:0.12] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a297084e7baa70c07771f70ed189b841\jetified-rxpermissions-0.12\AndroidManifest.xml:9:5-20
@@ -155,6 +158,8 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\EDZ\.gradle\cache
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f8737351b005499b1d3d4c8e66712e73\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dd3afee7902eb5edcf1523ec635c596a\jetified-FlycoTabLayout_Lib-2.1.2\AndroidManifest.xml:8:5-10:41
 MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dd3afee7902eb5edcf1523ec635c596a\jetified-FlycoTabLayout_Lib-2.1.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jcodecraeer:xrecyclerview:1.6.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\3bd463eca76e7c094ad6e371776112ef\jetified-xrecyclerview-1.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jcodecraeer:xrecyclerview:1.6.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\3bd463eca76e7c094ad6e371776112ef\jetified-xrecyclerview-1.6.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d73a40ae7d05add893828b3c1615edb6\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b0dd6791cae7cf7d12abc2795c0845bd\cardview-1.0.0\AndroidManifest.xml:20:5-44

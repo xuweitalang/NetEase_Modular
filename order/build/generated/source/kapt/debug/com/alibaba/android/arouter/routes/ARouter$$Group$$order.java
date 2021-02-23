@@ -13,6 +13,6 @@ import java.util.Map;
 public class ARouter$$Group$$order implements IRouteGroup {
   @Override
   public void loadInto(Map<String, RouteMeta> atlas) {
-    atlas.put("/order/main", RouteMeta.build(RouteType.ACTIVITY, Order_MainActivity.class, "/order/main", "order", null, -1, -2147483648));
+    atlas.put("/order/main", RouteMeta.build(RouteType.ACTIVITY, Order_MainActivity.class, "/order/main", "order", new java.util.HashMap<String, Integer>(){{put("test", 8); }}, -1, -2147483648));
   }
 }

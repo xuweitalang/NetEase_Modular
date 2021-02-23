@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewbinding.ViewBinding;
 
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.netease.common.utils.CommonUtil;
 import com.netease.common.utils.KeyBoardUtil;
 
@@ -48,6 +49,7 @@ public abstract class BaseActivity<VB extends ViewBinding> extends AppCompatActi
         if (useEventBus()) {
             EventBus.getDefault().register(this);
         }
+        ARouter.getInstance().inject(this);
         initView();
         initData();
         start();

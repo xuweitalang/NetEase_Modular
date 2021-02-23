@@ -1,14 +1,17 @@
+com/netease/modular/order/BuildConfig.java
+ com.netease.modular.order.BuildConfig
+com/netease/modular/order/databinding/OrderActivityDebugBinding.java
+ com.netease.modular.order.databinding.OrderActivityDebugBinding
+com/alibaba/android/arouter/routes/ARouter$$Providers$$order.java
+ com.alibaba.android.arouter.routes.ARouter$$Providers$$order
+com/alibaba/android/arouter/routes/ARouter$$Root$$order.java
+ com.alibaba.android.arouter.routes.ARouter$$Root$$order
 com/netease/modular/order/databinding/OrderActivityMainBinding.java
  com.netease.modular.order.databinding.OrderActivityMainBinding
 com/alibaba/android/arouter/routes/ARouter$$Group$$order.java
  com.alibaba.android.arouter.routes.ARouter$$Group$$order
-com/alibaba/android/arouter/routes/ARouter$$Providers$$order.java
- com.alibaba.android.arouter.routes.ARouter$$Providers$$order
+ com.alibaba.android.arouter.routes.ARouter$$Group$$order$1
 com/netease/modular/order/Order_MainActivity.java
  com.netease.modular.order.Order_MainActivity
-com/alibaba/android/arouter/routes/ARouter$$Root$$order.java
- com.alibaba.android.arouter.routes.ARouter$$Root$$order
-com/netease/modular/order/databinding/OrderActivityDebugBinding.java
- com.netease.modular.order.databinding.OrderActivityDebugBinding
-com/netease/modular/order/BuildConfig.java
- com.netease.modular.order.BuildConfig
+com/netease/modular/order/Order_MainActivity$$ARouter$$Autowired.java
+ com.netease.modular.order.Order_MainActivity$$ARouter$$Autowired
