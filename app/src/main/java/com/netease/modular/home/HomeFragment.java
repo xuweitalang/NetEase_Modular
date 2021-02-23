@@ -40,6 +40,7 @@ public class HomeFragment extends BaseMvpFragment<FragmentHomeBinding, HomeContr
         viewBinding.btnOrder.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_ORDER_MAIN).
                 withString("test", "haha").navigation());
         viewBinding.btnDemo.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_DEMO_MAIN).navigation());
+        viewBinding.btnPersonal.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.ROUTE_PERSONAL_MAIN).navigation());
         viewBinding.btnLogin.setOnClickListener(v -> login());
 
         List<String> list = new ArrayList<>();

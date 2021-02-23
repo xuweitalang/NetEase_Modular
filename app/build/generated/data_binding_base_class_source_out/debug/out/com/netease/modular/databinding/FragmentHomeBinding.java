@@ -29,14 +29,19 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final Button btnOrder;
 
   @NonNull
+  public final Button btnPersonal;
+
+  @NonNull
   public final XRecyclerView recyclerView;
 
   private FragmentHomeBinding(@NonNull LinearLayout rootView, @NonNull Button btnDemo,
-      @NonNull Button btnLogin, @NonNull Button btnOrder, @NonNull XRecyclerView recyclerView) {
+      @NonNull Button btnLogin, @NonNull Button btnOrder, @NonNull Button btnPersonal,
+      @NonNull XRecyclerView recyclerView) {
     this.rootView = rootView;
     this.btnDemo = btnDemo;
     this.btnLogin = btnLogin;
     this.btnOrder = btnOrder;
+    this.btnPersonal = btnPersonal;
     this.recyclerView = recyclerView;
   }
 
@@ -85,6 +90,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_personal;
+      Button btnPersonal = rootView.findViewById(id);
+      if (btnPersonal == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerView;
       XRecyclerView recyclerView = rootView.findViewById(id);
       if (recyclerView == null) {
@@ -92,7 +103,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((LinearLayout) rootView, btnDemo, btnLogin, btnOrder,
-          recyclerView);
+          btnPersonal, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

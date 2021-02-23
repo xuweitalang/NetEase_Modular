@@ -64,6 +64,7 @@ dependencies {
     if (isRelease) {
         implementation project(':order')
         implementation project(':demo')
+        implementation project(':module_personal')
     }
     kapt rootProject.ext.otherDeps["arouter-compiler"]
 

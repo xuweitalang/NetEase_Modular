@@ -9,4 +9,5 @@ package com.netease.common.constant
 object RoutePath {
     const val ROUTE_ORDER_MAIN = "/order/main"
     const val ROUTE_DEMO_MAIN = "/demo/main"
+    const val ROUTE_PERSONAL_MAIN = "/personal/main"
 }

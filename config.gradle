@@ -2,22 +2,22 @@ ext {
 
     // 定义一个项目全局变量isRelease，用于动态切换：组件化模式 / 集成化模式
     // false: 组件化模式（子模块可以独立运行），true ：集成化模式（打包整个项目apk，子模块不可独立运行）
-    isRelease = false
+    isRelease = true
 
     // 建立Map存储，对象名、key可以自定义
     androidId = [
-            compileSdkVersion: 28,
-            buildToolsVersion: "29.0.2",
-            minSdkVersion    : 24,
-            targetSdkVersion : 28,
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 21,
+            targetSdkVersion : 30,
             versionCode      : 1,
             versionName      : "1.0"
     ]
 
-    appId = ["app"  : "com.netease.modular",
-             "order": "com.netease.modular.order",
-//             "personal": "com.netease.modular.personal",
-             "demo" : "com.netease.modular.demo"
+    appId = ["app"     : "com.netease.modular",
+             "order"   : "com.netease.modular.order",
+             "personal": "com.netease.modular.personal",
+             "demo"    : "com.netease.modular.demo"
     ]
 
     url = [
@@ -72,7 +72,6 @@ ext {
             "leakcanary-debug": 'com.squareup.leakcanary:leakcanary-android:1.6.3',
 //            "leakcanary-release"       : 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1',
 //            "leakcanary-debug-fragment": 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1',
-//            "debug-db"                 : 'com.amitshekhar.android:debug-db:1.0.4',
     ]
 
     commonDeps = [

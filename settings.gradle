@@ -1,2 +1,1 @@
-include ':app', ':common', ':order', ':demo'
-//':personal',
+include ':app', ':common', ':order', ':demo', ':module_personal'

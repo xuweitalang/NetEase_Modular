@@ -5,140 +5,39 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="24"
-8-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml
+8        android:minSdkVersion="21"
+8-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml
 10
-11    <!-- To store the heap dumps and leak analysis results. -->
-12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:23:5-80
-12-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:23:22-77
-13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
-13-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:24:5-81
-13-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:24:22-78
-14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-14-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:26:5-77
-14-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:26:22-74
-15
-16    <application
-16-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:5:5-20:19
-17        android:name="com.netease.modular.order.debug.Order_DebugApplication"
-17-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:6:9-53
-18        android:allowBackup="true"
-18-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:7:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\34ec944504eb95ecd866d3c1fb07e1af\core-1.1.0\AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:8:9-43
-23        android:label="@string/common_app_name"
-23-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:9:9-48
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:10:9-54
-25        android:supportsRtl="true"
-25-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:11:9-35
-26        android:testOnly="true"
-27        android:theme="@style/AppTheme" >
-27-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:12:9-40
-28        <activity android:name="com.netease.modular.order.debug.Order_DebugActivity" >
-28-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:13:9-19:20
-28-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:13:19-60
-29            <intent-filter>
-29-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:14:13-18:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:15:17-69
-30-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:15:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:17:17-77
-32-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:17:27-74
-33            </intent-filter>
-34        </activity>
-35
-36        <service
-36-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:29:9-32:45
-37            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
-37-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:30:13-80
-38            android:enabled="false"
-38-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:31:13-36
-39            android:process=":leakcanary" />
-39-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:32:13-42
-40        <service
-40-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:33:9-36:45
-41            android:name="com.squareup.leakcanary.DisplayLeakService"
-41-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:34:13-70
-42            android:enabled="false"
-42-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:35:13-36
-43            android:process=":leakcanary" />
-43-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:36:13-42
-44
-45        <provider
-45-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:38:9-46:20
-46            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
-46-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:39:13-83
-47            android:authorities="com.squareup.leakcanary.fileprovider.com.netease.modular.order"
-47-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:40:13-88
-48            android:exported="false"
-48-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:41:13-37
-49            android:grantUriPermissions="true" >
-49-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:42:13-47
-50            <meta-data
-50-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:43:13-45:66
-51                android:name="android.support.FILE_PROVIDER_PATHS"
-51-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:44:17-67
-52                android:resource="@xml/leak_canary_file_paths" />
-52-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:45:17-63
-53        </provider>
-54
-55        <activity
-55-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:48:9-61:20
-56            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
-56-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:49:13-80
-57            android:enabled="false"
-57-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:50:13-36
-58            android:icon="@mipmap/leak_canary_icon"
-58-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:51:13-52
-59            android:label="@string/leak_canary_display_activity_label"
-59-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:52:13-71
-60            android:process=":leakcanary"
-60-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:53:13-42
-61            android:taskAffinity="com.squareup.leakcanary.com.netease.modular.order"
-61-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:54:13-76
-62            android:theme="@style/leak_canary_LeakCanary.Base" >
-62-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:55:13-63
-63            <intent-filter>
-63-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:14:13-18:29
-64                <action android:name="android.intent.action.MAIN" />
-64-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:15:17-69
-64-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:15:25-66
-65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:17:17-77
-66-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\debug\AndroidManifest.xml:17:27-74
-67            </intent-filter>
-68        </activity>
-69        <activity
-69-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:62:9-71:68
-70            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
-70-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:63:13-93
-71            android:enabled="false"
-71-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:64:13-36
-72            android:excludeFromRecents="true"
-72-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:65:13-46
-73            android:icon="@mipmap/leak_canary_icon"
-73-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:66:13-52
-74            android:label="@string/leak_canary_storage_permission_activity_label"
-74-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:67:13-82
-75            android:process=":leakcanary"
-75-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:68:13-42
-76            android:roundIcon="@mipmap/leak_canary_icon"
-76-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:69:13-57
-77            android:taskAffinity="com.squareup.leakcanary.com.netease.modular.order"
-77-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:70:13-76
-78            android:theme="@style/leak_canary_Theme.Transparent" />
-78-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\69932a8b9d664681a8b18d1872997dbd\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:71:13-65
-79    </application>
-80
-81</manifest>
+11    <application
+11-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:5:5-19:19
+12        android:allowBackup="true"
+12-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:6:9-35
+13        android:icon="@mipmap/ic_launcher"
+13-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:7:9-43
+14        android:label="@string/common_app_name"
+14-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:8:9-48
+15        android:roundIcon="@mipmap/ic_launcher_round"
+15-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:9:9-54
+16        android:supportsRtl="true"
+16-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:10:9-35
+17        android:theme="@style/AppTheme" >
+17-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:11:9-40
+18        <activity android:name="com.netease.modular.order.Order_MainActivity" >
+18-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:12:9-18:20
+18-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:12:19-53
+19            <intent-filter>
+19-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:13:13-17:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:14:17-69
+20-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:14:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:16:17-77
+22-->C:\download\jiagoushi-master\jiagoushi-master\ZuJianHua\NetEase_Modular\order\src\main\AndroidManifest.xml:16:27-74
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>
