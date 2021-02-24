@@ -12,12 +12,13 @@ import com.netease.common.base.mvp.BaseMvpActivity;
 import com.netease.common.constant.Cons;
 import com.netease.modular.BuildConfig;
 import com.netease.modular.R;
+import com.netease.modular.databinding.ActivityMainBinding;
 import com.netease.modular.home.HomeFragment;
 import com.netease.modular.main.entity.TabEntity;
 
 import java.util.ArrayList;
 
-public class MainActivity extends BaseMvpActivity<com.netease.modular.databinding.ActivityMainBinding, MainContract.View, MainContract.Presenter> implements MainContract.View {
+public class MainActivity extends BaseMvpActivity<ActivityMainBinding, MainContract.View, MainContract.Presenter> implements MainContract.View {
 
     private HomeFragment mHomeFragment;
     private HomeFragment mVideoFragment;

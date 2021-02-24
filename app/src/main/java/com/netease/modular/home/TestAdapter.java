@@ -18,7 +18,7 @@ public class TestAdapter extends BaseAdapter<AdapterTestItemBinding, String> {
     }
 
     @Override
-    public void convert(AdapterTestItemBinding v, String string, int position) {
-        v.tvTest.setText(string + position);
+    public void convert(AdapterTestItemBinding itemBinding, String string, int position) {
+        itemBinding.tvTest.setText(string + position);
     }
 }
